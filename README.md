@@ -21,7 +21,8 @@ any good software router ought to have.
 
 # acknowledgments
 
-Thanks to Yawning Angel for the inspiring design of the Katzenpost mix server library.
+Thanks to Yawning Angel for the inspiring design of the
+Katzenpost mix server library: https://github.com/katzenpost/server
 
 
 # license

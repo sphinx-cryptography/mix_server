@@ -29,8 +29,6 @@ extern crate crossbeam_thread;
 extern crate log;
 extern crate log4rs;
 extern crate toml;
-extern crate bloom;
-extern crate sled;
 
 extern crate epoch;
 extern crate ecdh_wrapper;

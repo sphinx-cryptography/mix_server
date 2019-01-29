@@ -7,6 +7,11 @@ keywords = ["cryptography", "network", "mixnet", "anonymity"]
 license = "AGPL-3.0-only"
 
 [dependencies]
+epoch = "0.0.2"
+ecdh_wrapper = "0.0.9"
+sphinxcrypto = "0.0.19"
+sphinx_replay_cache = "0.0.3"
+mix_link = "0.0.5"
 clap = "2.32.0"
 toml = "0.4"
 serde_derive = "1.0.80"
@@ -17,15 +22,8 @@ crossbeam = "0.5.0"
 crossbeam-channel = "0.3.0"
 crossbeam-utils = "0.6.1"
 crossbeam-thread = "0.0.0"
-epoch = "0.0.1"
 rand = "^0.4.2"
 byteorder = "1.2.6"
-bloom = "0.3.2"
-sled = "0.16.2"
-ecdh_wrapper = "0.0.7"
-sphinxcrypto = "0.0.16"
-sphinx_replay_cache = "0.0.1"
-mix_link = { path = "../mix_link" }
 
 [dev-dependencies]
 rustc-serialize = "0.3.24"
